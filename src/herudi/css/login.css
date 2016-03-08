@@ -841,7 +841,8 @@ and open the template in the editor.
     -fx-background-color: -fx-focus-color, -fx-outer-border, -fx-inner-border, -fx-body-color;
     -fx-background-radius: 6.4, 4, 5, 3;
     -fx-background-insets: -1.4, 0, 1, 2;
-}*/
+}
+*/
  
 .combo-box-base:disabled {
     -fx-opacity: .4;
@@ -852,7 +853,7 @@ and open the template in the editor.
     -fx-background-color: transparent, transparent, white;
 }
 
-//list view
+/*list view */
 .list-view {
     -fx-background-color: #909090, -fx-control-inner-background;
     -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0) , 8, 0.0 , 0 , 0 );
